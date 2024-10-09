@@ -1,0 +1,111 @@
+/* 基本的なスタイリング */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 20px;
+}
+
+/* フォーム全体のスタイル */
+form {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    width: 50%;  /* フォームの幅を 50% に設定 */
+    margin: 0 auto;  /* フォームを中央揃えに設定 */
+}
+
+/* 商品リスト全体のスタイル（幅と中央揃えをフォームに合わせる） */
+.product-list {
+    width: 50%;  /* 商品リストの幅を 50% に設定 */
+    margin: 0 auto;  /* 商品リストを中央揃えに設定 */
+}
+
+/* 商品リストのスタイル */
+ul {
+    width: 53%;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto; 
+}
+
+ul li {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* 各フォーム要素のスタイル */
+form label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form select {
+    width: 100%;  /* 入力要素の幅はフォームの 100% */
+    padding: 6px;  /* パディングを調整 */
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;  /* フォントサイズを小さめに調整 */
+}
+
+form button {
+    margin-top: 15px;
+    background-color: #007bff;
+    color: white;
+    padding: 8px 15px;  /* ボタンのパディングを調整 */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;  /* ボタンのフォントサイズを調整 */
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* ページネーションのスタイル */
+.pagination {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.pagination .step-links a {
+    text-decoration: none;
+    margin: 0 5px;
+    padding: 5px 10px;
+    color: #007bff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.pagination .step-links span {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+/* ボタンのスタイル */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
